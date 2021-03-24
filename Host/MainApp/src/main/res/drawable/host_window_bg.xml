@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/host_color_ffffff" />
+        </shape>
+    </item>
+    <!--    <item android:top="@dimen/host_welcome_top_value">-->
+    <!--        <bitmap android:gravity="center|top" android:src="@drawable/host_bg_welcome_top_drawable" />-->
+    <!--    </item>-->
+
+    <!--    <item android:bottom="100dp">-->
+    <!--        <bitmap android:gravity="center|bottom" android:src="@drawable/host_bg_welcome_bottom_drawable" />-->
+    <!--    </item>-->
+</layer-list>

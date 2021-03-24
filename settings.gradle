@@ -1,0 +1,5 @@
+//include ':mylibrary'
+include ':Host:Application'
+include ':Host:MainApp'
+include ':XAndroidFramework:OpenSdk'
+rootProject.name = "BusComing"

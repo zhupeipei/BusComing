@@ -1,0 +1,9 @@
+ext {
+    myDependencies = [
+            recyclerView            : 'androidx.recyclerview:recyclerview:1.2.0-alpha06',
+            okHttp                  : 'com.squareup.okhttp3:okhttp:4.9.1',
+            fragmentationx_swipeback: 'me.xuexuan:fragmentationx-swipeback:1.0.6',
+            fragmentationx          : 'me.xuexuan:fragmentationx:1.0.6',
+            gson                    : 'com.google.code.gson:gson:2.8.6'
+    ]
+}

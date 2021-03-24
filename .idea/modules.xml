@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Host/Application/Application.iml" filepath="$PROJECT_DIR$/.idea/modules/Host/Application/Application.iml" group="BusComing/Host/Application" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BusComing.iml" filepath="$PROJECT_DIR$/.idea/modules/BusComing.iml" group="BusComing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Host/Host.iml" filepath="$PROJECT_DIR$/.idea/modules/Host/Host.iml" group="BusComing/Host" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Host/MainApp/MainApp.iml" filepath="$PROJECT_DIR$/.idea/modules/Host/MainApp/MainApp.iml" group="BusComing/Host/MainApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/XAndroidFramework/OpenSdk/OpenSdk.iml" filepath="$PROJECT_DIR$/.idea/modules/XAndroidFramework/OpenSdk/OpenSdk.iml" group="BusComing/XAndroidFramework/OpenSdk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/XAndroidFramework/XAndroidFramework.iml" filepath="$PROJECT_DIR$/.idea/modules/XAndroidFramework/XAndroidFramework.iml" group="BusComing/XAndroidFramework" />
+    </modules>
+  </component>
+</project>
