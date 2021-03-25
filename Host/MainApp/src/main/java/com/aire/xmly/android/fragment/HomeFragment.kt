@@ -2,6 +2,7 @@ package com.aire.xmly.android.fragment
 
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.aire.xmly.android.R
@@ -23,6 +24,7 @@ import java.io.InputStreamReader
  * Created by ZhuPeipei on 2021/3/23 16:20.
  */
 class HomeFragment private constructor() : BaseFragment() {
+    private val mRefreshView by lazy { findViewById<View>(R.id.host_bus_refresh_btn) }
     private val mBusRv by lazy { findViewById<RecyclerView>(R.id.host_bus_rv) }
     private val mAdapter = MutiTypeAdapter()
 
@@ -50,6 +52,10 @@ class HomeFragment private constructor() : BaseFragment() {
                 LinearLayoutManager.VERTICAL
             )
         )
+        mRefreshView.setOnClickListener {
+            mAdapter.clearData()
+            loadData()
+        }
     }
 
     override fun loadData() {

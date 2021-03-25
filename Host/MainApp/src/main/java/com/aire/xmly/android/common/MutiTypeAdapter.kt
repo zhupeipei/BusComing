@@ -23,6 +23,11 @@ open class MutiTypeAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         }
     }
 
+    fun clearData() {
+        mListData.clear()
+        notifyDataSetChanged()
+    }
+
     fun addListData(listData: List<Any>?) {
         listData?.let {
             mListData.addAll(listData)
