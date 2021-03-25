@@ -29,6 +29,11 @@ android {
             jniLibs.srcDirs = ['libs']
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -40,4 +45,8 @@ dependencies {
     implementation rootProject.ext.myDependencies.recyclerView
     implementation rootProject.ext.myDependencies.gson
     implementation project(path: ':XAndroidFramework:OpenSdk')
+    implementation rootProject.ext.myDependencies.kotlinx_coroutines_core
+    implementation rootProject.ext.myDependencies.kotlinx_coroutines_android
+    implementation rootProject.ext.myDependencies.retrofit2
+    implementation rootProject.ext.myDependencies.retrofit2_gson_converter
 }

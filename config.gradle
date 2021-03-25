@@ -1,9 +1,13 @@
 ext {
     myDependencies = [
-            recyclerView            : 'androidx.recyclerview:recyclerview:1.2.0-alpha06',
-            okHttp                  : 'com.squareup.okhttp3:okhttp:4.9.1',
-            fragmentationx_swipeback: 'me.xuexuan:fragmentationx-swipeback:1.0.6',
-            fragmentationx          : 'me.xuexuan:fragmentationx:1.0.6',
-            gson                    : 'com.google.code.gson:gson:2.8.6'
+            recyclerView              : 'androidx.recyclerview:recyclerview:1.2.0-alpha06',
+            okHttp                    : 'com.squareup.okhttp3:okhttp:4.9.1',
+            fragmentationx_swipeback  : 'me.xuexuan:fragmentationx-swipeback:1.0.6',
+            fragmentationx            : 'me.xuexuan:fragmentationx:1.0.6',
+            gson                      : 'com.google.code.gson:gson:2.8.6',
+            kotlinx_coroutines_android: 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3-native-mt',
+            kotlinx_coroutines_core   : 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3-native-mt',
+            retrofit2                 : 'com.squareup.retrofit2:retrofit:2.9.0',
+            retrofit2_gson_converter  : 'com.squareup.retrofit2:converter-gson:2.9.0'
     ]
 }

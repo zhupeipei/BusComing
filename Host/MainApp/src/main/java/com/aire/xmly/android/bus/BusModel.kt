@@ -16,3 +16,13 @@ data class BusStationModel(
 )
 
 data class Attribute(val cod: String)
+
+enum class BusStationEnum(
+    val busName: String,
+    val stationName: String = "",
+    val index: Int,
+    val sid: String
+) {
+    BUS_989_GUTANG("989路", "顾唐路龙东大道", 14, "82944a2f25006fada079b02a4ecaebea"),
+    BUS_PUDONG_1_GUTANG("浦东1路", "顾唐路龙东大道", 14, "82944a2f25006fada079b02a4ecaebea")
+}

@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.aire.xmly.android.R
 import com.aire.xmly.android.common.BaseRecyclerAdapter
 import com.aire.xmly.android.common.MultiChildAdapter
+import com.aire.xmly.android.common.TimeUtil
 
 /**
  * Created by ZhuPeipei on 2021/3/23 17:31.
@@ -35,7 +36,8 @@ class BusStationAdapter : MultiChildAdapter() {
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int, item: Any?) {
         if (holder is BusStationViewHolder && item is BusStationModel) {
-            holder.childTv.text = item.time
+            holder.childTv.text =
+                "车次${item.attributes.cod} 还有${item.stopdis}站 ${TimeUtil.getTimeDurStr(item.time.toInt())} 距离${item.distance}m"
         }
     }
 
