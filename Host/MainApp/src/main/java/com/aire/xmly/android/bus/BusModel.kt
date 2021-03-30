@@ -24,5 +24,5 @@ enum class BusStationEnum(
     val sid: String
 ) {
     BUS_989_GUTANG("989路", "顾唐路龙东大道", 14, "82944a2f25006fada079b02a4ecaebea"),
-    BUS_PUDONG_1_GUTANG("浦东1路", "顾唐路龙东大道", 14, "82944a2f25006fada079b02a4ecaebea")
+    BUS_PUDONG_1_GUTANG("浦东1路", "龙东大道顾唐路", 8, "de82841bae84af0e7df130cc51bb417d")
 }
