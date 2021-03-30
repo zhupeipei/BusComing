@@ -49,4 +49,6 @@ dependencies {
     implementation rootProject.ext.myDependencies.kotlinx_coroutines_android
     implementation rootProject.ext.myDependencies.retrofit2
     implementation rootProject.ext.myDependencies.retrofit2_gson_converter
+    implementation rootProject.ext.myDependencies.rxandroid
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 }

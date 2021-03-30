@@ -8,6 +8,7 @@ ext {
             kotlinx_coroutines_android: 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3-native-mt',
             kotlinx_coroutines_core   : 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3-native-mt',
             retrofit2                 : 'com.squareup.retrofit2:retrofit:2.9.0',
-            retrofit2_gson_converter  : 'com.squareup.retrofit2:converter-gson:2.9.0'
+            retrofit2_gson_converter  : 'com.squareup.retrofit2:converter-gson:2.9.0',
+            rxandroid                 : 'io.reactivex.rxjava2:rxandroid:2.1.1'
     ]
 }
